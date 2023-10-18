@@ -179,7 +179,7 @@ const App = () => {
                   <Slider
                     value={minLength}
                     min={0}
-                    max={maxLength - 1}
+                    max={maxLength - 1 } 
                     onChange={handleMinLengthChange}
                     valueLabelDisplay="auto"
                   />
